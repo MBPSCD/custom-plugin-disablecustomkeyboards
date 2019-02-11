@@ -1,0 +1,29 @@
+{
+  "name": "custom-plugin-disablecustomkeyboards",
+  "version": "1.0.1",
+  "description": "This plugin can disable 3-party keybord for IOS",
+  "cordova": {
+    "id": "custom-plugin-disablecustomkeyboards",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "keyboard",
+    "disable",
+    "custom",
+    "ios",
+    "plugin",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Xena Cheng",
+  "license": "MIT"
+}

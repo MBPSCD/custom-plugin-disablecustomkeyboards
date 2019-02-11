@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="custom-plugin-disablecustomkeyboards" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" >
+    <name>custom-plugin-disablecustomkeyboards</name>
+    <description>This plugin can disable 3-party keybord for IOS</description>
+    <keywords>keyboard,disable,custom,ios,plugin,cordova</keywords>
+    <license>MIT</license>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="DisableCustomKeyboards">
+                <param name="ios-package" value="AppDelegate+DisableCustomKeyboards"/>
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/AppDelegate+DisableCustomKeyboards.h" />
+        <source-file src="src/ios/AppDelegate+DisableCustomKeyboards.m" />
+    </platform>
+</plugin>
