@@ -1,4 +1,4 @@
-#import "AppDelegate+disablecustomkeyboards.h"
+#import "AppDelegate+DisableCustomKeyboards.h"
 
 @implementation AppDelegate (customkeyboards)
 
